@@ -368,6 +368,14 @@
     \newpage
 }
 
+% making acknowledgement
+\newcommand{\makeacknowledgement}{
+    \newpage
+    \addcontentsline{toc}{section}{Köszönetnyílvánítás}
+    \input{acknowledgment}
+    \newpage
+}
+
 % figures numbering
 \setcounter{figure}{0}
 \renewcommand{\thefigure}{\arabic{section}-\arabic{figure}}
