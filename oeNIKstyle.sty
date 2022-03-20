@@ -380,7 +380,8 @@
 \numberwithin{equation}{section}
 
 % algorithm in hungarian
-\algrenewcommand{\algorithmicprocedure}{\textbf{függvény}}
+\algrenewcommand{\algorithmicfunction}{\textbf{függvény}}
+\algrenewcommand{\algorithmicprocedure}{\textbf{eljárás}}
 \algrenewcommand{\algorithmicfor}{\textbf{ciklus}}
 \algrenewcommand{\algorithmicwhile}{\textbf{ciklus}}
 \algrenewcommand{\algorithmicdo}{\textbf{amíg}}
@@ -390,11 +391,12 @@
 \algrenewcommand{\algorithmicelse}{\textbf{különben}}
 \algrenewcommand{\algorithmicrequire}{\textbf{Bemenet}}
 \algrenewcommand{\algorithmicensure}{\textbf{Kimenet}}
-\algrenewtext{EndProcedure}{\algorithmicprocedure\ \algorithmicend}
 \algrenewtext{While}{\algorithmicwhile\ \algorithmicdo\ }
 \algrenewtext{For}{\algorithmicwhile\ }
-\algrenewtext{EndProcedure}{\algorithmicwhile\ \algorithmicend}
+\algrenewtext{EndFunction}{\algorithmicfunction\ \algorithmicend}
+\algrenewtext{EndProcedure}{\algorithmicprocedure\ \algorithmicend}
 \algrenewtext{EndIf}{\textbf{elágazás} \algorithmicend}
+\algrenewtext{EndFor}{\algorithmicwhile\ \algorithmicend}
 
 % algorithm boxing
 
